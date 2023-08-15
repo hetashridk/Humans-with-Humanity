@@ -1,0 +1,56 @@
+.aboutus-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .aboutus-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assests/about-us-header.png") no-repeat center/cover;
+    height: 400px;
+    width: 100%;
+    color: aliceblue;
+  }
+  
+  .about-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .about-title h2 {
+    font-size: 3.75rem;
+    color: #fdbe33;
+  }
+  
+  .aboutus-tags {
+    position: relative;
+    top: 15%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 22px;
+  }
+  
+  .home-link {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .aboutus-tags p {
+    margin: 0 10px;
+  }

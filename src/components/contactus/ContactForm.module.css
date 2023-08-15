@@ -1,0 +1,97 @@
+   .forms{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 7px;
+    padding: 30px;
+    background: #f3f6ff;
+   }
+
+   @media (max-width: 991.98px) {
+    .forms {
+        max-width: 600px;
+    }
+    .forms input {
+      max-width: 550px;
+    }
+    .forms textarea {
+      max-width: 550px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .forms {
+        max-width: 400px;
+    }
+    .forms input {
+      max-width: 350px;
+    }
+    .forms textarea {
+      max-width: 350px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .forms {
+        max-width: 300px;
+    }
+    .forms input {
+      max-width: 250px;
+    }
+    .forms textarea {
+      max-width: 250px;
+    }
+}
+
+.forms input {
+  padding: 15px;
+  background: none;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, .1);
+  width: 650px;
+}
+
+.forms textarea {
+  height: 150px;
+  padding: 8px 15px;
+  background: none;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, .1);
+  width: 650px;
+}
+
+.forms .actions {
+  width: 100%;
+  text-align: center;
+}
+
+.actions button{
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+
+.control{
+  margin-bottom: 15px;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
+

@@ -1,0 +1,15 @@
+.events-container
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    right: 22rem;
+    bottom: 10rem;
+}

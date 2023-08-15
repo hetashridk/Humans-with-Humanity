@@ -1,0 +1,71 @@
+.nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    max-height: 100px;
+    font-size: 22px;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .nav.nav-scroll
+  {
+    background-color: #00000090;
+    backdrop-filter: blur(10px);
+    color: white;
+    max-height: 100px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    width: 100%;
+    z-index: 999;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img
+  {
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+  }
+  
+  .linkers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list-items {
+    display: flex;
+  }
+  
+  .list-items li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .donate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .donate .link
+  {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  .contact
+  {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }

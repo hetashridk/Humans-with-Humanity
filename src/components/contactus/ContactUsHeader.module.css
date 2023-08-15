@@ -1,0 +1,119 @@
+.header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../../assests/handshake.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h2 {
+    position: relative;
+    color: #FDBE33;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.header h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: #FDBE33;
+}
+
+.header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.header a:hover {
+    color: #FDBE33;
+}
+
+.header a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header a:last-child::after {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .header {
+        padding: 60px 0;
+    }
+    
+    .header h2 {
+        font-size: 45px;
+    }
+    
+    .header a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        padding: 45px 0;
+    }
+    
+    .header h2 {
+        font-size: 35px;
+    }
+    
+    .header a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1400px){
+    .container {
+        max-width: 1320px;
+    }
+}
+@media (max-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 576px){
+    .container {
+        max-width: 100%;
+    }
+}
+.col{
+    flex: 0 0 auto auto;
+    width: 100%;
+}

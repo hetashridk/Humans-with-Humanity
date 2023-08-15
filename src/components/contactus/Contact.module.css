@@ -1,0 +1,114 @@
+.contact .container{
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+.contact .imag {
+    position: relative;
+    width: 100%;
+}
+
+.contact .imag img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.contact{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 7px;
+    padding: 30px;
+    background: #f3f6ff;
+}
+
+@media (max-width: 991.98px) {
+    .contact{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact{
+        max-width: 300px;
+    }
+}
+.header {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 45px auto;
+    text-align: center;
+}
+
+.header p {
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    text-transforms: capitalize;
+    color: #FDBE33;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+    .header h2 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1400px){
+    .container {
+        width: 1320px;
+    }
+}
+@media (max-width: 1200px){
+    .container {
+        width: 1140px;
+    }
+}
+@media (max-width: 992px){
+    .container {
+        width: 960px;
+    }
+}
+@media (max-width: 768px){
+    .container {
+        width: 720px;
+    }
+}
+@media (max-width: 576px){
+    .container {
+        width: 540px;
+    }
+}
+@media (min-width: 576px){
+    .container {
+        width: 100%;
+    }
+}
