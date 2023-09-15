@@ -27,9 +27,9 @@ function Navbar() {
             <li><Link to="/contact-us" className="contact">Contact</Link></li>
           </ul>
         </div>
-        <div className="donate">
+        {/* <div className="donate">
           <p><Link to="/donate" className="link">Donate</Link></p>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -99,6 +99,12 @@ function PersonalInfo() {
                {/* {showSection1 &&  */}
                
             <div>
+            <div className={classes.header}>
+                    <h1>HUMANS WITH HUMANITY VOLUNTEERING FORM</h1>
+                    {/* <img  className={classes.ima} src={animal_banner} alt='banner' /> */}
+                    <img className={classes.imag} src={banner} alt='banner' />
+                </div>
+                <hr />
                 <div>
                     <h4>HUMANS WITH HUMANITY is animal welfare foundation, entering into its 12th year. <br />Together we aim to create society where coexistence with nature is blessing. <br />Join us and let us together make our surrounding a beautiful place.</h4>
                 </div>
